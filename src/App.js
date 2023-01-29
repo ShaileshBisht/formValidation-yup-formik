@@ -20,7 +20,8 @@ function App() {
     onSubmit: (values) => {},
   });
 
-  console.log(errors);
+  console.log("errors", errors);
+  console.log("values / form data", values);
 
   return (
     <div className="App">
