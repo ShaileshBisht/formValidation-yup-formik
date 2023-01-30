@@ -17,7 +17,9 @@ function App() {
   const { handleSubmit, handleChange, errors, values } = useFormik({
     initialValues: initialValues,
     validationSchema: formSchema,
-    onSubmit: (values) => {},
+    onSubmit: (values) => {
+      // what to do on submit
+    },
   });
 
   console.log("errors", errors);
